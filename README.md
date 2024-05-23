@@ -14,3 +14,5 @@ Bunun için linux de root terminalinde aşağıdaki işlemleri yapabiliriz.
 ```cadence
 netdiscover -r 10.0.2.1/24
 ```
+Yukarıda netdiscover aracı, ağdaki cihazları keşfetmek için kullanılır. -r seçeneği ile belirli bir IP aralığını tarar. 10.0.2.1/24 ise taranacak IP aralığını( 10.0.2.1 ila 10.0.2.254 arasındaki tüm IP adreslerini tarar) belirtir. Bu komutu çalıştırarak, belirtilen alt ağdaki tüm aktif cihazları ve onların MAC adreslerini keşfedebilirsiniz.
+
