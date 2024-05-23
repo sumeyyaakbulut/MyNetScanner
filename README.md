@@ -9,3 +9,8 @@ ARP(Adres Çözümleme Protokolü) mac adresi ile ip adresini eşleştirmek içi
 
 
 Kali linux de hazır olarak bulunan bir metwork tarayıcı bulunmaktadır.
+
+Bunun için linux de root terminalinde aşağıdaki işlemleri yapabiliriz.
+```cadence
+netdiscover -r 10.0.2.1/24
+```
